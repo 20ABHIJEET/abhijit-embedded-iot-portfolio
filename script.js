@@ -1,6 +1,4 @@
-// ========================================
-// MOBILE NAVIGATION
-// ========================================
+
 
 const menuButton = document.getElementById("menuBtn");
 const navigation = document.getElementById("nav");
@@ -11,16 +9,13 @@ if (menuButton && navigation) {
   });
 
   // Close menu after clicking a navigation link
+
   document.querySelectorAll(".nav a").forEach(function (link) {
     link.addEventListener("click", function () {
       navigation.classList.remove("open");
     });
   });
 }
-
-// ========================================
-// SCROLL REVEAL ANIMATION
-// ========================================
 
 const revealElements = document.querySelectorAll(".reveal");
 
@@ -35,6 +30,7 @@ if ("IntersectionObserver" in window) {
         }
       });
     },
+
     {
       threshold: 0.12,
     },
@@ -47,14 +43,12 @@ if ("IntersectionObserver" in window) {
   });
 } else {
   // Fallback for older browsers
+
   revealElements.forEach(function (element) {
     element.classList.add("visible");
   });
 }
 
-// ========================================
-// PROJECT FILTERING
-// ========================================
 
 const filterButtons = document.querySelectorAll(".filter");
 const projectCards = document.querySelectorAll(".project-card");
@@ -62,17 +56,21 @@ const projectCards = document.querySelectorAll(".project-card");
 filterButtons.forEach(function (button) {
   button.addEventListener("click", function () {
     // Remove active class from all buttons
+
     filterButtons.forEach(function (item) {
       item.classList.remove("active");
     });
 
     // Add active class to clicked button
+
     button.classList.add("active");
 
     // Get selected category
+
     const selectedFilter = button.getAttribute("data-filter");
 
     // Filter projects
+
     projectCards.forEach(function (card) {
       const categoryData = card.getAttribute("data-category");
 
@@ -94,9 +92,7 @@ filterButtons.forEach(function (button) {
   });
 });
 
-// ========================================
-// COPY EMAIL BUTTON
-// ========================================
+
 
 const copyButton = document.getElementById("copyEmail");
 
@@ -116,14 +112,13 @@ if (copyButton) {
       }, 1800);
     } catch (error) {
       // Fallback if clipboard is not available
+
       window.location.href = "mailto:" + emailAddress;
     }
   });
 }
 
-// ========================================
-// CURRENT YEAR
-// ========================================
+
 
 const yearElement = document.getElementById("year");
 
@@ -131,9 +126,7 @@ if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
 }
 
-// ========================================
-// CLOSE MOBILE MENU WHEN CLICKING OUTSIDE
-// ========================================
+
 
 document.addEventListener("click", function (event) {
   if (!navigation || !menuButton) {
@@ -184,9 +177,6 @@ window.addEventListener("scroll", function () {
   });
 });
 
-// ========================================
-// PREVENT EMPTY LINKS FROM JUMPING
-// ========================================
 
 document.querySelectorAll('a[href="#"]').forEach(function (link) {
   link.addEventListener("click", function (event) {
