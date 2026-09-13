@@ -1,59 +1,111 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Abhijit Raut - Embedded Systems and IoT Engineer Portfolio"
-    />
-    <title>Abhijit Raut | Embedded Systems & IoT</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <a href="#home" class="logo">AR<span>.</span></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <nav class="nav" id="nav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <meta
+    name="description"
+    content="Abhijit Raut - Embedded Systems and IoT Engineer Portfolio"
+  />
 
-      <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">
-        ☰
-      </button>
-    </header>
+  <title>Abhijit Raut | Embedded Systems & IoT</title>
 
-    <main>
-      <section class="hero" id="home">
-        <div class="hero-grid"></div>
-        <div class="hero-content reveal">
-          <div class="status">
-            <span></span> Building with Embedded Systems & IoT
-          </div>
-          <p class="eyebrow">HELLO, I'M</p>
-          <h1>Abhijit<br /><span>Raut</span></h1>
-          <h2>Embedded Systems & IoT Developer</h2>
-          <p class="hero-text">
-            Electrical Engineering student focused on ESP32, Arduino,
-            automation, sensors, embedded programming, and practical IoT
-            projects.
-          </p>
-          <div class="hero-buttons">
-            <a href="#projects" class="btn primary">Explore Projects ↗</a>
-            <a href="#contact" class="btn secondary">Contact Me</a>
-          </div>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <a href="#home" class="logo">
+      AR<span>.</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button
+      class="menu-btn"
+      id="menuBtn"
+      aria-label="Toggle navigation"
+    >
+      ☰
+    </button>
+
+  </header>
+
+
+  <main>
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+
+    <section class="hero" id="home">
+
+      <div class="hero-grid"></div>
+
+      <div class="hero-content reveal">
+
+        <div class="status">
+          <span></span>
+          Building with Embedded Systems & IoT
         </div>
 
-        <div class="hero-terminal reveal">
-          <div class="terminal-head">
-            <div class="terminal-dots"><i></i><i></i><i></i></div>
-            <span>embedded_systems.cpp</span>
+        <p class="eyebrow">HELLO, I'M</p>
+
+        <h1>
+          Abhijit<br />
+          <span>Raut</span>
+        </h1>
+
+        <h2>Embedded Systems & IoT Developer</h2>
+
+        <p class="hero-text">
+          Electrical Engineering student focused on ESP32, Arduino,
+          automation, sensors, embedded programming, and practical IoT
+          projects.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#projects" class="btn primary">
+            Explore Projects ↗
+          </a>
+
+          <a href="#contact" class="btn secondary">
+            Contact Me
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- TERMINAL -->
+
+      <div class="hero-terminal reveal">
+
+        <div class="terminal-head">
+
+          <div class="terminal-dots">
+            <i></i>
+            <i></i>
+            <i></i>
           </div>
-          <pre><code><span class="code-blue">#include</span> &lt;ESP32.h&gt;
+
+          <span>embedded_systems.cpp</span>
+
+        </div>
+
+        <pre><code><span class="code-blue">#include</span> &lt;ESP32.h&gt;
 
 <span class="code-purple">void</span> <span class="code-yellow">setup</span>() {
   WiFi.<span class="code-yellow">begin</span>();
@@ -66,509 +118,1319 @@
   automate();
   build();
 }</code></pre>
-          <div class="terminal-footer">
-            <span>● SYSTEM ONLINE</span>
-            <span>ESP32 / IoT</span>
-          </div>
-        </div>
-      </section>
 
-      <section class="about section" id="about">
-        <div class="section-label">01 / ABOUT</div>
-        <div class="about-grid">
-          <div class="about-heading reveal">
-            <p class="eyebrow">WHO I AM</p>
-            <h2>From circuits<br />to <span>connected</span><br />systems.</h2>
-          </div>
-          <div class="about-text reveal">
-            <p>
-              I am <strong>Abhijit Raut</strong>, an Electrical Engineering
-              student at Sant Gadge Baba Amravati University. My current focus
-              is building practical projects that combine electronics, embedded
-              programming, automation, and IoT.
-            </p>
-            <p>
-              I work with Arduino and ESP32 platforms and enjoy turning ideas
-              into working prototypes using sensors, actuators, displays,
-              wireless control, and automation.
-            </p>
-            <div class="about-facts">
-              <div><strong>15+</strong><span>Projects Built</span></div>
-              <div><strong>ESP32</strong><span>Core Platform</span></div>
-              <div><strong>IoT</strong><span>Primary Focus</span></div>
-            </div>
-          </div>
-        </div>
-      </section>
+        <div class="terminal-footer">
 
-      <section class="skills section" id="skills">
-        <div class="section-label">02 / SKILLS</div>
-        <div class="section-heading reveal">
-          <p class="eyebrow">TECH STACK</p>
-          <h2>Tools I use to<br /><span>build things.</span></h2>
+          <span>● SYSTEM ONLINE</span>
+
+          <span>ESP32 / IoT</span>
+
         </div>
 
-        <div class="skills-grid">
-          <article class="skill-card reveal">
-            <div class="skill-number">01</div>
-            <div class="skill-icon">⌁</div>
-            <h3>Embedded Systems</h3>
-            <p>
-              ESP32, Arduino, Embedded C/C++, GPIO, serial communication and
-              hardware interfacing.
-            </p>
-            <div class="tags">
-              <span>ESP32</span><span>Arduino</span><span>C/C++</span>
-            </div>
-          </article>
+      </div>
 
-          <article class="skill-card reveal">
-            <div class="skill-number">02</div>
-            <div class="skill-icon">◉</div>
-            <h3>IoT & Automation</h3>
-            <p>
-              Wi-Fi control, Blynk-based systems, remote control, smart
-              automation and connected devices.
-            </p>
-            <div class="tags">
-              <span>Blynk</span><span>Wi-Fi</span><span>Automation</span>
-            </div>
-          </article>
+    </section>
 
-          <article class="skill-card reveal">
-            <div class="skill-number">03</div>
-            <div class="skill-icon">⌘</div>
-            <h3>Electronics</h3>
-            <p>
-              Sensors, relays, servo motors, OLED displays, LEDs, audio modules
-              and practical circuits.
-            </p>
-            <div class="tags">
-              <span>Sensors</span><span>Relays</span><span>OLED</span>
-            </div>
-          </article>
 
-          <article class="skill-card reveal">
-            <div class="skill-number">04</div>
-            <div class="skill-icon">{ }</div>
-            <h3>Programming & Web</h3>
-            <p>
-              Python, C, C++, HTML, CSS and JavaScript for programming,
-              interfaces and IoT dashboards.
-            </p>
-            <div class="tags">
-              <span>Python</span><span>JavaScript</span><span>Web</span>
-            </div>
-          </article>
 
-          <article class="skill-card reveal">
-            <div class="skill-number">05</div>
-            <div class="skill-icon">↯</div>
-            <h3>Control Systems</h3>
-            <p>
-              Motor control, servo control, relay switching, joystick input and
-              interactive hardware projects.
-            </p>
-            <div class="tags">
-              <span>Servo</span><span>Motor</span><span>Joystick</span>
-            </div>
-          </article>
+    <!-- =========================
+         ABOUT SECTION
+    ========================== -->
 
-          <article class="skill-card reveal">
-            <div class="skill-number">06</div>
-            <div class="skill-icon">AI</div>
-            <h3>AI & Integration</h3>
-            <p>
-              AI chatbot experimentation and integration of software ideas with
-              practical electronics projects.
-            </p>
-            <div class="tags">
-              <span>AI</span><span>Chatbot</span><span>Integration</span>
-            </div>
-          </article>
-        </div>
-      </section>
+    <section class="about section" id="about">
 
-      <section class="projects section" id="projects">
-        <div class="section-label">03 / PROJECTS</div>
-        <div class="projects-top reveal">
-          <div>
-            <p class="eyebrow">SELECTED WORK</p>
-            <h2>Things I've <span>built.</span></h2>
-          </div>
-          <p class="projects-intro">
-            A collection of practical electronics, embedded, automation, IoT and
-            interactive projects.
+      <div class="section-label">
+        01 / ABOUT
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-heading reveal">
+
+          <p class="eyebrow">
+            WHO I AM
           </p>
+
+          <h2>
+            From circuits<br />
+            to <span>connected</span><br />
+            systems.
+          </h2>
+
         </div>
 
-        <div class="filter-bar reveal">
-          <button class="filter active" data-filter="all">All</button>
-          <button class="filter" data-filter="iot">IoT</button>
-          <button class="filter" data-filter="embedded">Embedded</button>
-          <button class="filter" data-filter="automation">Automation</button>
-          <button class="filter" data-filter="interactive">Interactive</button>
+
+        <div class="about-text reveal">
+
+          <p>
+            I am <strong>Abhijit Raut</strong>, an Electrical Engineering
+            student at Sant Gadge Baba Amravati University. My current focus
+            is building practical projects that combine electronics, embedded
+            programming, automation, and IoT.
+          </p>
+
+          <p>
+            I work with Arduino and ESP32 platforms and enjoy turning ideas
+            into working prototypes using sensors, actuators, displays,
+            wireless control, and automation.
+          </p>
+
+
+          <div class="about-facts">
+
+            <div>
+              <strong>16+</strong>
+              <span>Projects Built</span>
+            </div>
+
+            <div>
+              <strong>ESP32</strong>
+              <span>Core Platform</span>
+            </div>
+
+            <div>
+              <strong>IoT</strong>
+              <span>Primary Focus</span>
+            </div>
+
+          </div>
+
         </div>
 
-        <div class="projects-grid">
-          <article
-            class="project-card featured reveal"
-            data-category="iot automation"
-          >
-            <div class="project-top"><span>01</span><span>FEATURED</span></div>
-            <div class="project-visual visual-iot">
-              <div class="pulse-ring"></div>
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         SKILLS SECTION
+    ========================== -->
+
+    <section class="skills section" id="skills">
+
+      <div class="section-label">
+        02 / SKILLS
+      </div>
+
+      <div class="section-heading reveal">
+
+        <p class="eyebrow">
+          TECH STACK
+        </p>
+
+        <h2>
+          Tools I use to<br />
+          <span>build things.</span>
+        </h2>
+
+      </div>
+
+
+      <div class="skills-grid">
+
+
+        <!-- SKILL 01 -->
+
+        <article class="skill-card reveal">
+
+          <div class="skill-number">
+            01
+          </div>
+
+          <div class="skill-icon">
+            ⌁
+          </div>
+
+          <h3>
+            Embedded Systems
+          </h3>
+
+          <p>
+            ESP32, Arduino, Embedded C/C++, GPIO, serial communication and
+            hardware interfacing.
+          </p>
+
+          <div class="tags">
+            <span>ESP32</span>
+            <span>Arduino</span>
+            <span>C/C++</span>
+          </div>
+
+        </article>
+
+
+        <!-- SKILL 02 -->
+
+        <article class="skill-card reveal">
+
+          <div class="skill-number">
+            02
+          </div>
+
+          <div class="skill-icon">
+            ◉
+          </div>
+
+          <h3>
+            IoT & Automation
+          </h3>
+
+          <p>
+            Wi-Fi control, Blynk-based systems, remote control, smart
+            automation and connected devices.
+          </p>
+
+          <div class="tags">
+            <span>Blynk</span>
+            <span>Wi-Fi</span>
+            <span>Automation</span>
+          </div>
+
+        </article>
+
+
+        <!-- SKILL 03 -->
+
+        <article class="skill-card reveal">
+
+          <div class="skill-number">
+            03
+          </div>
+
+          <div class="skill-icon">
+            ⌘
+          </div>
+
+          <h3>
+            Electronics
+          </h3>
+
+          <p>
+            Sensors, relays, servo motors, OLED displays, LEDs, audio modules
+            and practical circuits.
+          </p>
+
+          <div class="tags">
+            <span>Sensors</span>
+            <span>Relays</span>
+            <span>OLED</span>
+          </div>
+
+        </article>
+
+
+        <!-- SKILL 04 -->
+
+        <article class="skill-card reveal">
+
+          <div class="skill-number">
+            04
+          </div>
+
+          <div class="skill-icon">
+            { }
+          </div>
+
+          <h3>
+            Programming & Web
+          </h3>
+
+          <p>
+            Python, C, C++, HTML, CSS and JavaScript for programming,
+            interfaces and IoT dashboards.
+          </p>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>JavaScript</span>
+            <span>Web</span>
+          </div>
+
+        </article>
+
+
+        <!-- SKILL 05 -->
+
+        <article class="skill-card reveal">
+
+          <div class="skill-number">
+            05
+          </div>
+
+          <div class="skill-icon">
+            ↯
+          </div>
+
+          <h3>
+            Control Systems
+          </h3>
+
+          <p>
+            Motor control, servo control, relay switching, joystick input and
+            interactive hardware projects.
+          </p>
+
+          <div class="tags">
+            <span>Servo</span>
+            <span>Motor</span>
+            <span>Joystick</span>
+          </div>
+
+        </article>
+
+
+        <!-- SKILL 06 -->
+
+        <article class="skill-card reveal">
+
+          <div class="skill-number">
+            06
+          </div>
+
+          <div class="skill-icon">
+            AI
+          </div>
+
+          <h3>
+            AI & Integration
+          </h3>
+
+          <p>
+            AI chatbot experimentation and integration of software ideas with
+            practical electronics projects.
+          </p>
+
+          <div class="tags">
+            <span>AI</span>
+            <span>Chatbot</span>
+            <span>Integration</span>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         PROJECTS SECTION
+    ========================== -->
+
+    <section class="projects section" id="projects">
+
+      <div class="section-label">
+        03 / PROJECTS
+      </div>
+
+
+      <div class="projects-top reveal">
+
+        <div>
+
+          <p class="eyebrow">
+            SELECTED WORK
+          </p>
+
+          <h2>
+            Things I've <span>built.</span>
+          </h2>
+
+        </div>
+
+        <p class="projects-intro">
+          A collection of practical electronics, embedded, automation, IoT and
+          interactive projects.
+        </p>
+
+      </div>
+
+
+      <!-- FILTER -->
+
+      <div class="filter-bar reveal">
+
+        <button
+          class="filter active"
+          data-filter="all"
+        >
+          All
+        </button>
+
+        <button
+          class="filter"
+          data-filter="iot"
+        >
+          IoT
+        </button>
+
+        <button
+          class="filter"
+          data-filter="embedded"
+        >
+          Embedded
+        </button>
+
+        <button
+          class="filter"
+          data-filter="automation"
+        >
+          Automation
+        </button>
+
+        <button
+          class="filter"
+          data-filter="interactive"
+        >
+          Interactive
+        </button>
+
+      </div>
+
+
+
+      <div class="projects-grid">
+
+
+        <!-- PROJECT 01 -->
+
+        <article
+          class="project-card featured reveal"
+          data-category="iot automation"
+        >
+
+          <div class="project-top">
+            <span>01</span>
+            <span>FEATURED</span>
+          </div>
+
+          <div class="project-visual visual-iot">
+
+            <div class="pulse-ring"></div>
+
+            <span>ESP32</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              IoT / Automation
+            </div>
+
+            <h3>
+              Blynk-Based IoT Automation
+            </h3>
+
+            <p>
+              ESP32-based remote automation system using Blynk and relay
+              control for connected appliances.
+            </p>
+
+            <div class="tags">
+              <span>ESP32</span>
+              <span>Blynk</span>
+              <span>Relay</span>
+              <span>Wi-Fi</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 02 -->
+
+        <article
+          class="project-card reveal"
+          data-category="iot embedded"
+        >
+
+          <div class="project-top">
+            <span>02</span>
+            <span>IoT</span>
+          </div>
+
+          <div class="project-visual visual-wifi">
+
+            <span>Wi-Fi</span>
+            <b>LED</b>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              IoT / ESP32
+            </div>
+
+            <h3>
+              WiFi LED Control
+            </h3>
+
+            <p>
+              Wireless LED control through an ESP32 web-based interface.
+            </p>
+
+            <div class="tags">
+              <span>ESP32</span>
+              <span>Wi-Fi</span>
+              <span>Web</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 03 -->
+
+        <article
+          class="project-card reveal"
+          data-category="iot embedded"
+        >
+
+          <div class="project-top">
+            <span>03</span>
+            <span>SENSOR</span>
+          </div>
+
+          <div class="project-visual visual-temp">
+
+            <span>24.8°C</span>
+
+            <small>
+              TEMPERATURE
+            </small>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              Embedded / Monitoring
+            </div>
+
+            <h3>
+              Temperature Monitoring
+            </h3>
+
+            <p>
+              Sensor-based temperature monitoring with real-time data
+              displayed on an OLED.
+            </p>
+
+            <div class="tags">
+              <span>DHT11</span>
+              <span>ESP32</span>
+              <span>OLED</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 04 -->
+
+        <article
+          class="project-card reveal"
+          data-category="automation embedded"
+        >
+
+          <div class="project-top">
+            <span>04</span>
+            <span>CONTROL</span>
+          </div>
+
+          <div class="project-visual visual-relay">
+
+            <span>RELAY</span>
+            <i>ON</i>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              Embedded / Control
+            </div>
+
+            <h3>
+              Home Automation
+            </h3>
+
+            <p>
+              Practical appliance automation using ESP32, relays and remote
+              control logic.
+            </p>
+
+            <div class="tags">
+              <span>ESP32</span>
+              <span>Relay</span>
+              <span>Automation</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 05 -->
+
+        <article
+          class="project-card reveal"
+          data-category="interactive embedded"
+        >
+
+          <div class="project-top">
+            <span>05</span>
+            <span>CONTROL</span>
+          </div>
+
+          <div class="project-visual visual-joystick">
+
+            <span>◀</span>
+            <b>JOYSTICK</b>
+            <span>▶</span>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              Interactive / Embedded
+            </div>
+
+            <h3>
+              Joystick-Based Projects
+            </h3>
+
+            <p>
+              Interactive hardware experiments using joystick input for
+              control and game-style interfaces.
+            </p>
+
+            <div class="tags">
+              <span>ESP32</span>
+              <span>Joystick</span>
+              <span>Input</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 06 -->
+
+        <article
+          class="project-card reveal"
+          data-category="embedded automation"
+        >
+
+          <div class="project-top">
+            <span>06</span>
+            <span>MOTION</span>
+          </div>
+
+          <div class="project-visual visual-car">
+
+            <span>🚗</span>
+            <b>AUTO</b>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              Embedded / Robotics
+            </div>
+
+            <h3>
+              Automatic Car
+            </h3>
+
+            <p>
+              A small autonomous vehicle project combining sensors, motor
+              control and embedded logic.
+            </p>
+
+            <div class="tags">
+              <span>Arduino</span>
+              <span>Motors</span>
+              <span>Sensors</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 07 -->
+
+        <article
+          class="project-card reveal"
+          data-category="automation interactive"
+        >
+
+          <div class="project-top">
+            <span>07</span>
+            <span>VOICE</span>
+          </div>
+
+          <div class="project-visual visual-clap">
+
+            <span>👏</span>
+            <b>CLAP</b>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              Automation / Input
+            </div>
+
+            <h3>
+              Clap-Controlled System
+            </h3>
+
+            <p>
+              Sound-triggered control system that responds to clap input for
+              switching and automation.
+            </p>
+
+            <div class="tags">
+              <span>Sensor</span>
+              <span>Arduino</span>
+              <span>Control</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 08 -->
+
+        <article
+          class="project-card reveal"
+          data-category="embedded interactive"
+        >
+
+          <div class="project-top">
+            <span>08</span>
+            <span>DISPLAY</span>
+          </div>
+
+          <div class="project-visual visual-oled">
+
+            <span>◉</span>
+            <b>OLED</b>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              Embedded / Display
+            </div>
+
+            <h3>
+              OLED Display & Animations
+            </h3>
+
+            <p>
+              Custom OLED interfaces, animations, digital clock and
+              interactive display experiments.
+            </p>
+
+            <div class="tags">
+              <span>OLED</span>
+              <span>SSD1306</span>
               <span>ESP32</span>
             </div>
-            <div class="project-content">
-              <div class="project-type">IoT / Automation</div>
-              <h3>Blynk-Based IoT Automation</h3>
-              <p>
-                ESP32-based remote automation system using Blynk and relay
-                control for connected appliances.
-              </p>
-              <div class="tags">
-                <span>ESP32</span><span>Blynk</span><span>Relay</span
-                ><span>Wi-Fi</span>
-              </div>
-            </div>
-          </article>
 
-          <article class="project-card reveal" data-category="iot embedded">
-            <div class="project-top"><span>02</span><span>IoT</span></div>
-            <div class="project-visual visual-wifi">
-              <span>Wi-Fi</span><b>LED</b>
-            </div>
-            <div class="project-content">
-              <div class="project-type">IoT / ESP32</div>
-              <h3>WiFi LED Control</h3>
-              <p>Wireless LED control through an ESP32 web-based interface.</p>
-              <div class="tags">
-                <span>ESP32</span><span>Wi-Fi</span><span>Web</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card reveal" data-category="iot embedded">
-            <div class="project-top"><span>03</span><span>SENSOR</span></div>
-            <div class="project-visual visual-temp">
-              <span>24.8°C</span><small>TEMPERATURE</small>
-            </div>
-            <div class="project-content">
-              <div class="project-type">Embedded / Monitoring</div>
-              <h3>Temperature Monitoring</h3>
-              <p>
-                Sensor-based temperature monitoring with real-time data
-                displayed on an OLED.
-              </p>
-              <div class="tags">
-                <span>DHT11</span><span>ESP32</span><span>OLED</span>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="project-card reveal"
-            data-category="automation embedded"
-          >
-            <div class="project-top"><span>04</span><span>CONTROL</span></div>
-            <div class="project-visual visual-relay">
-              <span>RELAY</span><i>ON</i>
-            </div>
-            <div class="project-content">
-              <div class="project-type">Embedded / Control</div>
-              <h3>Home Automation</h3>
-              <p>
-                Practical appliance automation using ESP32, relays and remote
-                control logic.
-              </p>
-              <div class="tags">
-                <span>ESP32</span><span>Relay</span><span>Automation</span>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="project-card reveal"
-            data-category="interactive embedded"
-          >
-            <div class="project-top"><span>05</span><span>CONTROL</span></div>
-            <div class="project-visual visual-joystick">
-              <span>◀</span><b>JOYSTICK</b><span>▶</span>
-            </div>
-            <div class="project-content">
-              <div class="project-type">Interactive / Embedded</div>
-              <h3>Joystick-Based Projects</h3>
-              <p>
-                Interactive hardware experiments using joystick input for
-                control and game-style interfaces.
-              </p>
-              <div class="tags">
-                <span>ESP32</span><span>Joystick</span><span>Input</span>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="project-card reveal"
-            data-category="embedded automation"
-          >
-            <div class="project-top"><span>06</span><span>MOTION</span></div>
-            <div class="project-visual visual-car">
-              <span>🚗</span><b>AUTO</b>
-            </div>
-            <div class="project-content">
-              <div class="project-type">Embedded / Robotics</div>
-              <h3>Automatic Car</h3>
-              <p>
-                A small autonomous vehicle project combining sensors, motor
-                control and embedded logic.
-              </p>
-              <div class="tags">
-                <span>Arduino</span><span>Motors</span><span>Sensors</span>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="project-card reveal"
-            data-category="automation interactive"
-          >
-            <div class="project-top"><span>07</span><span>VOICE</span></div>
-            <div class="project-visual visual-clap">
-              <span>👏</span><b>CLAP</b>
-            </div>
-            <div class="project-content">
-              <div class="project-type">Automation / Input</div>
-              <h3>Clap-Controlled System</h3>
-              <p>
-                Sound-triggered control system that responds to clap input for
-                switching and automation.
-              </p>
-              <div class="tags">
-                <span>Sensor</span><span>Arduino</span><span>Control</span>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="project-card reveal"
-            data-category="embedded interactive"
-          >
-            <div class="project-top"><span>08</span><span>DISPLAY</span></div>
-            <div class="project-visual visual-oled">
-              <span>◉</span><b>OLED</b>
-            </div>
-            <div class="project-content">
-              <div class="project-type">Embedded / Display</div>
-              <h3>OLED Display & Animations</h3>
-              <p>
-                Custom OLED interfaces, animations, digital clock and
-                interactive display experiments.
-              </p>
-              <div class="tags">
-                <span>OLED</span><span>SSD1306</span><span>ESP32</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card reveal" data-category="embedded">
-            <div class="project-top"><span>09</span><span>AUDIO</span></div>
-            <div class="project-visual visual-audio">
-              <span>)))</span><b>AUDIO</b>
-            </div>
-            <div class="project-content">
-              <div class="project-type">ESP32 / Audio</div>
-              <h3>ESP32 Audio / Speaker Project</h3>
-              <p>
-                ESP32 audio experimentation using microphone and speaker
-                hardware for sound-based interaction.
-              </p>
-              <div class="tags">
-                <span>ESP32</span><span>Audio</span><span>Microphone</span>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="project-card reveal"
-            data-category="embedded interactive"
-          >
-            <div class="project-top"><span>10</span><span>GAME</span></div>
-            <div class="project-visual visual-game">
-              <span>REFLEX</span><b>GAME</b>
-            </div>
-            <div class="project-content">
-              <div class="project-type">Interactive / Embedded</div>
-              <h3>Reflex Game</h3>
-              <p>
-                A reaction-time game built around embedded inputs, LEDs and
-                timing logic.
-              </p>
-              <div class="tags">
-                <span>Arduino</span><span>Timing</span><span>Game</span>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="project-card reveal"
-            data-category="embedded automation"
-          >
-            <div class="project-top"><span>11</span><span>PARKING</span></div>
-            <div class="project-visual visual-parking">
-              <span>SPACE</span><b>FREE</b>
-            </div>
-            <div class="project-content">
-              <div class="project-type">Embedded / Sensor</div>
-              <h3>Car Parking System</h3>
-              <p>
-                Ultrasonic-based parking detection system with visual feedback.
-              </p>
-              <div class="tags">
-                <span>HC-SR04</span><span>Arduino</span><span>LED</span>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="project-card reveal"
-            data-category="embedded automation"
-          >
-            <div class="project-top"><span>12</span><span>TIMER</span></div>
-            <div class="project-visual visual-timer">
-              <span>00:30</span><b>PARK</b>
-            </div>
-            <div class="project-content">
-              <div class="project-type">Embedded / Timing</div>
-              <h3>Parking Timer</h3>
-              <p>
-                Timer-based parking experiment combining distance detection and
-                time logic.
-              </p>
-              <div class="tags">
-                <span>Arduino</span><span>Timer</span><span>Ultrasonic</span>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="project-card reveal"
-            data-category="embedded automation"
-          >
-            <div class="project-top"><span>13</span><span>MOTION</span></div>
-            <div class="project-visual visual-servo">
-              <span>0°</span><b>180°</b>
-            </div>
-            <div class="project-content">
-              <div class="project-type">Embedded / Actuator</div>
-              <h3>Servo Motor Control</h3>
-              <p>
-                Servo positioning experiments using programmed control and
-                interactive inputs.
-              </p>
-              <div class="tags">
-                <span>SG90</span><span>Arduino</span><span>PWM</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card reveal" data-category="iot interactive">
-            <div class="project-top"><span>14</span><span>AI</span></div>
-            <div class="project-visual visual-ai">
-              <span>&gt;_</span><b>AI</b>
-            </div>
-            <div class="project-content">
-              <div class="project-type">AI / Software</div>
-              <h3>AI Chatbot</h3>
-              <p>
-                An AI chatbot project exploring conversational interaction and
-                software integration.
-              </p>
-              <div class="tags">
-                <span>AI</span><span>Python</span><span>Chatbot</span>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="journey section">
-        <div class="section-label">04 / JOURNEY</div>
-        <div class="journey-grid">
-          <div class="journey-heading reveal">
-            <p class="eyebrow">CURRENT FOCUS</p>
-            <h2>Learning by<br /><span>building.</span></h2>
           </div>
-          <div class="journey-list">
-            <div class="journey-item reveal">
-              <span>01</span>
-              <div>
-                <h3>Arduino Fundamentals</h3>
-                <p>
-                  Building a strong foundation in electronics, GPIO, sensors and
-                  actuators.
-                </p>
-              </div>
-            </div>
-            <div class="journey-item reveal">
-              <span>02</span>
-              <div>
-                <h3>ESP32 & IoT</h3>
-                <p>
-                  Moving into Wi-Fi-enabled embedded systems and connected
-                  automation.
-                </p>
-              </div>
-            </div>
-            <div class="journey-item reveal">
-              <span>03</span>
-              <div>
-                <h3>Advanced Projects</h3>
-                <p>
-                  Combining hardware, software, displays, audio, automation and
-                  intelligent interfaces.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section class="contact section" id="contact">
-        <div class="contact-box reveal">
-          <p class="eyebrow">05 / CONTACT</p>
-          <h2>Let's build<br /><span>something useful.</span></h2>
-          <p>
-            Interested in Embedded Systems, IoT, automation or collaborative
-            projects? Get in touch.
+        </article>
+
+
+
+        <!-- PROJECT 09 -->
+
+        <article
+          class="project-card reveal"
+          data-category="embedded"
+        >
+
+          <div class="project-top">
+            <span>09</span>
+            <span>AUDIO</span>
+          </div>
+
+          <div class="project-visual visual-audio">
+
+            <span>)))</span>
+            <b>AUDIO</b>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              ESP32 / Audio
+            </div>
+
+            <h3>
+              ESP32 Audio / Speaker Project
+            </h3>
+
+            <p>
+              ESP32 audio experimentation using microphone and speaker
+              hardware for sound-based interaction.
+            </p>
+
+            <div class="tags">
+              <span>ESP32</span>
+              <span>Audio</span>
+              <span>Microphone</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 10 -->
+
+        <article
+          class="project-card reveal"
+          data-category="embedded interactive"
+        >
+
+          <div class="project-top">
+            <span>10</span>
+            <span>GAME</span>
+          </div>
+
+          <div class="project-visual visual-game">
+
+            <span>REFLEX</span>
+            <b>GAME</b>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              Interactive / Embedded
+            </div>
+
+            <h3>
+              Reflex Game
+            </h3>
+
+            <p>
+              A reaction-time game built around embedded inputs, LEDs and
+              timing logic.
+            </p>
+
+            <div class="tags">
+              <span>Arduino</span>
+              <span>Timing</span>
+              <span>Game</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 11 -->
+
+        <article
+          class="project-card reveal"
+          data-category="embedded automation"
+        >
+
+          <div class="project-top">
+            <span>11</span>
+            <span>PARKING</span>
+          </div>
+
+          <div class="project-visual visual-parking">
+
+            <span>SPACE</span>
+            <b>FREE</b>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              Embedded / Sensor
+            </div>
+
+            <h3>
+              Car Parking System
+            </h3>
+
+            <p>
+              Ultrasonic-based parking detection system with visual feedback.
+            </p>
+
+            <div class="tags">
+              <span>HC-SR04</span>
+              <span>Arduino</span>
+              <span>LED</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 12 -->
+
+        <article
+          class="project-card reveal"
+          data-category="embedded automation"
+        >
+
+          <div class="project-top">
+            <span>12</span>
+            <span>TIMER</span>
+          </div>
+
+          <div class="project-visual visual-timer">
+
+            <span>00:30</span>
+            <b>PARK</b>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              Embedded / Timing
+            </div>
+
+            <h3>
+              Parking Timer
+            </h3>
+
+            <p>
+              Timer-based parking experiment combining distance detection and
+              time logic.
+            </p>
+
+            <div class="tags">
+              <span>Arduino</span>
+              <span>Timer</span>
+              <span>Ultrasonic</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 13 -->
+
+        <article
+          class="project-card reveal"
+          data-category="embedded automation"
+        >
+
+          <div class="project-top">
+            <span>13</span>
+            <span>MOTION</span>
+          </div>
+
+          <div class="project-visual visual-servo">
+
+            <span>0°</span>
+            <b>180°</b>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              Embedded / Actuator
+            </div>
+
+            <h3>
+              Servo Motor Control
+            </h3>
+
+            <p>
+              Servo positioning experiments using programmed control and
+              interactive inputs.
+            </p>
+
+            <div class="tags">
+              <span>SG90</span>
+              <span>Arduino</span>
+              <span>PWM</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- PROJECT 14 -->
+
+        <article
+          class="project-card reveal"
+          data-category="iot interactive"
+        >
+
+          <div class="project-top">
+            <span>14</span>
+            <span>AI</span>
+          </div>
+
+          <div class="project-visual visual-ai">
+
+            <span>&gt;_</span>
+            <b>AI</b>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              AI / Software
+            </div>
+
+            <h3>
+              AI Chatbot
+            </h3>
+
+            <p>
+              An AI chatbot project exploring conversational interaction and
+              software integration.
+            </p>
+
+            <div class="tags">
+              <span>AI</span>
+              <span>Python</span>
+              <span>Chatbot</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- =========================
+             PROJECT 15
+        ========================== -->
+
+        <article
+          class="project-card featured reveal"
+          data-category="iot embedded automation"
+        >
+
+          <div class="project-top">
+            <span>15</span>
+            <span>ROBOTICS</span>
+          </div>
+
+          <div class="project-visual visual-robot">
+
+            <span>🤖</span>
+
+            <b>ESP32</b>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              IoT / Robotics
+            </div>
+
+            <h3>
+              ESP32 Wi-Fi Controlled Robot Car
+            </h3>
+
+            <p>
+              Wi-Fi controlled robotic car using ESP32 and Blynk IoT with
+              Forward, Backward, Left, Right, Stop and variable speed control.
+            </p>
+
+            <div class="tags">
+              <span>ESP32</span>
+              <span>Blynk</span>
+              <span>Wi-Fi</span>
+              <span>Motor Driver</span>
+              <span>DC Motors</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+
+        <!-- =========================
+             PROJECT 16
+        ========================== -->
+
+        <article
+          class="project-card featured reveal"
+          data-category="iot automation embedded"
+        >
+
+          <div class="project-top">
+            <span>16</span>
+            <span>POWER</span>
+          </div>
+
+          <div class="project-visual visual-voltage">
+
+            <span>230V</span>
+
+            <b>PROTECT</b>
+
+          </div>
+
+          <div class="project-content">
+
+            <div class="project-type">
+              IoT / Power Monitoring
+            </div>
+
+            <h3>
+              ESP32 Smart Voltage Protection System
+            </h3>
+
+            <p>
+              IoT-based AC voltage monitoring and protection system using
+              ZMPT101B, OLED, relay, LED and Blynk, with automatic supply
+              disconnection below 180V.
+            </p>
+
+            <div class="tags">
+              <span>ESP32</span>
+              <span>ZMPT101B</span>
+              <span>Blynk</span>
+              <span>OLED</span>
+              <span>Relay</span>
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         JOURNEY
+    ========================== -->
+
+    <section class="journey section">
+
+      <div class="section-label">
+        04 / JOURNEY
+      </div>
+
+      <div class="journey-grid">
+
+        <div class="journey-heading reveal">
+
+          <p class="eyebrow">
+            CURRENT FOCUS
           </p>
-          <div class="contact-actions">
-            <a class="btn primary" href="mailto:rautabhijit0739@gmail.com"
-              >Email Me ↗</a
-            >
-            <a
-              class="btn secondary"
-              href="https://github.com/20ABHIJEET"
-              target="_blank"
-              rel="noopener"
-              >GitHub ↗</a
-            >
-            <button class="btn secondary" id="copyEmail">Copy Email</button>
-          </div>
-          <div class="contact-info">
-            <span>rautabhijit0739@gmail.com</span>
-            <span>+91 70578 35275</span>
-          </div>
+
+          <h2>
+            Learning by<br />
+            <span>building.</span>
+          </h2>
+
         </div>
-      </section>
-    </main>
 
-    <footer>
-      <span>© <span id="year"></span> Abhijit Raut</span>
-      <span>Embedded Systems • IoT • Automation</span>
-    </footer>
 
-    <script src="script.js"></script>
-  </body>
+        <div class="journey-list">
+
+          <div class="journey-item reveal">
+
+            <span>01</span>
+
+            <div>
+
+              <h3>
+                Arduino Fundamentals
+              </h3>
+
+              <p>
+                Building a strong foundation in electronics, GPIO, sensors and
+                actuators.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="journey-item reveal">
+
+            <span>02</span>
+
+            <div>
+
+              <h3>
+                ESP32 & IoT
+              </h3>
+
+              <p>
+                Moving into Wi-Fi-enabled embedded systems and connected
+                automation.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="journey-item reveal">
+
+            <span>03</span>
+
+            <div>
+
+              <h3>
+                Advanced Projects
+              </h3>
+
+              <p>
+                Combining hardware, software, displays, audio, automation and
+                intelligent interfaces.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section class="contact section" id="contact">
+
+      <div class="contact-box reveal">
+
+        <p class="eyebrow">
+          05 / CONTACT
+        </p>
+
+        <h2>
+          Let's build<br />
+          <span>something useful.</span>
+        </h2>
+
+        <p>
+          Interested in Embedded Systems, IoT, automation or collaborative
+          projects? Get in touch.
+        </p>
+
+
+        <div class="contact-actions">
+
+          <a
+            class="btn primary"
+            href="mailto:rautabhijit0739@gmail.com"
+          >
+            Email Me ↗
+          </a>
+
+          <a
+            class="btn secondary"
+            href="https://github.com/20ABHIJEET"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub ↗
+          </a>
+
+          <button
+            class="btn secondary"
+            id="copyEmail"
+          >
+            Copy Email
+          </button>
+
+        </div>
+
+
+        <div class="contact-info">
+
+          <span>
+            rautabhijit0739@gmail.com
+          </span>
+
+          <span>
+            +91 70578 35275
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <span>
+      © <span id="year"></span> Abhijit Raut
+    </span>
+
+    <span>
+      Embedded Systems • IoT • Automation
+    </span>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
 </html>
